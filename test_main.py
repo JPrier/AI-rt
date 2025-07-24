@@ -1,4 +1,4 @@
-from main import greet, greet_frank
+from main import greet, greet_frank, greet_web
 
 
 def test_greet_default():
@@ -11,3 +11,7 @@ def test_greet_custom():
 
 def test_greet_frank():
     assert greet_frank() == "Hello, Frank!"
+
+
+def test_greet_web():
+    assert greet_web() == "Hello, Web!"

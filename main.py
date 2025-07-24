@@ -11,5 +11,10 @@ def greet_frank() -> str:
     return greet("Frank")
 
 
+def greet_web() -> str:
+    """Return a friendly greeting for the Web."""
+    return greet("Web")
+
+
 if __name__ == "__main__":
     print(greet())
