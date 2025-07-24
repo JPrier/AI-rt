@@ -1,9 +1,17 @@
 """Simple greeting module."""
 
 
-def greet(name: str = "AI-rt") -> str:
-    """Return a friendly greeting."""
-    return f"Hello, {name}!"
+def greet(name: str = "AI-rt", punctuation: str = "!") -> str:
+    """Return a friendly greeting.
+
+    Parameters
+    ----------
+    name:
+        Name to greet. Defaults to ``"AI-rt"``.
+    punctuation:
+        Ending punctuation for the greeting. Defaults to ``"!"``.
+    """
+    return f"Hello, {name}{punctuation}"
 
 
 def greet_frank() -> str:
