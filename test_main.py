@@ -1,4 +1,4 @@
-from main import greet, greet_frank
+from main import greet, greet_frank, greet_excited
 
 
 def test_greet_default():
@@ -15,3 +15,7 @@ def test_greet_custom_punctuation():
 
 def test_greet_frank():
     assert greet_frank() == "Hello, Frank!"
+
+
+def test_greet_excited():
+    assert greet_excited("Codex") == "Wow! Hello, Codex!"
