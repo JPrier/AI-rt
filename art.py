@@ -1,4 +1,3 @@
-
 """Module providing ASCII art."""
 
 
@@ -8,6 +7,18 @@ def get_cat_art() -> str:
   /\_/\
  ( o.o )
   > ^ <
+"""
+
+
+def get_smiley_art() -> str:
+    """Return a simple smiley ASCII art."""
+    return r"""
+   _____
+  /     \
+ |  o o  |
+ |   ^   |
+ |  '-'  |
+  \_____/
 """
 
 
