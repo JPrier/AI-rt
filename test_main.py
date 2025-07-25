@@ -1,4 +1,4 @@
-from main import greet, greet_frank, greet_excited
+from main import greet, greet_excited, greet_frank
 
 
 def test_greet_default():
